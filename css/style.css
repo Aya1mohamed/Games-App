@@ -1,0 +1,45 @@
+ body {
+    font-family: "Comfortaa", cursive;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #272b30;
+    color:  #fff;
+ }
+ 
+ .nav-item .nav-link.active,.nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+ }
+ 
+ .home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+ }
+ 
+ header img {
+    max-height: 40vh;
+    object-fit: cover;
+ }
+ 
+ .home .card:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+ }
+ 
+ nav {
+    background-color: rgb(58, 73, 123) !important;
+    margin-inline: auto;
+    margin-top: -20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.719);
+ }
+ 
+ 
+ .details {
+    background-color: #272729be;
+    backdrop-filter: blur(4px);
+    min-height: 100vh;
+ }
+ 
+ 
+ 
